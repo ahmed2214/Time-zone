@@ -1,0 +1,957 @@
+
+header .navbar
+{
+    background-color: #fff !important;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header .nav-link
+{
+    
+    font-size: 16px;
+    font-family: "Josefin Sans",sans-serif;
+    color: #141517;
+    font-weight: 600;
+    padding: 41px 21px !important;
+    display: inline-block;
+    text-transform: capitalize;
+    display: block;
+}
+header .nav-item:hover .nav-link
+{
+    color: #ff2020 !important;
+}
+.coverHome 
+{
+    background-color: #f0f0f2;
+  transition: disp-cont 2s  infinite  i, container-2 4s  infinite  ;
+} 
+
+
+.coverHome .card
+{
+    background-color: transparent !important;
+    border: none;
+    transition: all .6s;
+    overflow: hidden;
+
+}
+.coverHome .card-body
+{
+    padding-top: 300px ;
+  
+   
+}
+.coverHome h1
+{
+    font-family: "Josefin Sans",sans-serif;
+    color: #0b1c39;
+    margin-top: 0px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    animation-delay: 0.4s;
+    width: 100% !important;
+}
+.coverHome  .card-text
+{
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 39px;
+    color: #212025 !important;
+    margin-bottom: 60px;
+    padding-right: 50px;
+    animation-delay: 0.7s;
+}
+.coverHome .btn
+{
+    padding: 15px 29px;
+    background: #4a4a4b;
+    border-radius: 0px;
+    margin: 10px;
+    transition: all 5s;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    transition-delay: 3s;
+}
+.coverHome .btn .btn-link
+{
+    color: #fff ;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  
+
+}
+.coverHome .btn  .btn-link::after
+{
+    position: absolute;
+    content: " ";
+    background-color: #ff2020;
+    height:100%;
+    width: 0;
+    z-index: -1111;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .8s;
+}
+.coverHome .btn:hover .btn-link::after 
+{
+    opacity: 1;
+    width: 100%;
+
+}
+.coverHome .bounceIn
+{
+    animation-iteration-count: 1;
+  
+}
+.coverHome .pulse{
+animation-iteration-count: infinite;
+animation-duration: 3s;
+;
+}
+.coverHome .bounceInLeft
+{animation-iteration-count: 1;
+ }
+ .coverHome img
+ {
+     width: 100%;
+ }
+ /**/
+/**/
+.Arrivals .container
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Arrivals .card 
+{
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+  
+}
+.Arrivals .card-body
+{
+    text-align: center;
+}
+.Arrivals .h5 
+{
+    color: #444444;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.Arrivals p
+{
+    color: #ff2020;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Arrivals .img-container
+{
+    overflow: hidden;
+ 
+}
+.Arrivals .card img
+{
+
+    transition: all .4s ease-out .2s;
+}
+.Arrivals .card:hover img
+{
+    transform: scale(1.2);
+    transition: all .4s ease-out .2s;
+}
+/**/
+/**/
+.background .card
+{
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.background .img-1
+{ 
+height: 688px;
+max-width: 100%;
+border: none;
+padding-left: 0;
+transform: scale(1.1);
+transition: all .4s ease-out .2s;
+
+
+}
+.background .card .imgLayout
+{
+ overflow: hidden;
+}
+
+.background .overlay
+{
+   
+    background-color: rgba(0, 0, 0, 0.205);
+    width: 100%;
+    height: 688px;
+    position: absolute;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.background .imgLayout:hover .img .img-1 
+{
+    transform: scale(1);
+
+}
+.background .imgLayout:hover .overlay
+{
+    
+   visibility: visible;
+}
+.background .img-2
+{
+height: 688px;
+width: 100%;
+border: none;
+transform: scale(1.1);
+transition: all .4s ease-out .2s;
+}
+.background .imgLayout:hover .img .img-2
+{
+    transform: scale(1);
+}
+.background .img-3
+{
+height: 324px;
+width: 100%;
+border: none;
+background-repeat: no-repeat;
+padding-right: 0;
+transform: scale(1.1);
+transition: all .4s ease-out .2s;
+}
+.background .imgLayout:hover .img .img-3
+{
+    transform: scale(1);
+}
+.background .img-4
+{
+height: 324px;
+width: 100%;
+border: none;
+background-repeat: no-repeat;
+padding-right: 0;
+transform: scale(1.1);
+transition: all .4s ease-out .2s;
+}
+.background .imgLayout:hover .img .img-4
+{
+    transform: scale(1);
+    height: 324px;
+}
+.background .last-layaout-1
+{
+   margin-bottom: 10px;
+}
+/**/
+/**/
+.Popular 
+{
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+.Popular .card 
+{
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    transition: all 4s ease-out .2s;
+}
+.Popular .card-body
+{
+    text-align: center;
+    transition: all 4s ease-out .2s;
+}
+.Popular .heartIcon
+{
+    position: absolute;
+    top:15px;
+    right:15px;
+    display: none;
+}
+.Popular  .fa-heart
+{
+    font-size: 30px;
+    font-weight: 300;
+}
+.Popular .Popular h2
+{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+
+}
+.Popular .head-text 
+{
+    
+    font-family: "Roboto",sans-serif;
+    color: #777;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    max-width: 510px;
+    margin: auto;
+}
+
+.Popular a 
+{
+    color: #444444;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+.Popular p
+{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Popular .img-container
+{
+    position: relative;
+    overflow: hidden;
+   border-bottom: solid red 2px;
+}
+.Popular .card:hover .img-cap 
+{
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom:1px;;
+    right: 0;
+}
+.Popular .card:hover .heartIcon
+{
+    display: block;
+}
+.Popular .img-cap 
+{
+    color: #fff;
+    background: #f81f1f;
+    padding: 20px 0;
+    height: 0;
+    cursor: pointer;
+    text-align: center;
+    transition: all .4s ;
+    position: absolute;
+    left: 0;
+    bottom: -60px;;
+    right: 0;
+
+}
+
+.Popular .btn
+{
+    padding: 15px 29px;
+    background-color: #ff2020;
+    border-radius: 0px;
+    margin: 10px;
+    transition: all 5s;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    transition-delay: 3s;
+}
+.Popular .btn .btn-link
+{
+    color: #fff ;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  
+
+}
+.Popular .btn  .btn-link::after
+{
+    position: absolute;
+    content: " ";
+    background-color: #4a4a4b;;
+    height:100%;
+    width: 0;
+    z-index: -1111;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s linear;
+}
+.Popular .btn:hover .btn-link::after 
+{
+    opacity: 1;
+    width: 100%;
+
+}
+/**/
+/**/
+.watchChoice
+{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.watchChoice .card
+{
+    border: none;
+}
+.watchChoice .card-body
+{
+    padding-top: 20%;
+}
+.watchChoice h2 
+{
+    
+    color: #000;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+ 
+    padding-bottom: 50px;
+}
+
+.watchChoice p
+{
+    margin-bottom: 70px;
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    color: #777;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    
+}
+.watchChoice .body-2
+{
+    margin-left: 40px !important;
+}
+.watchChoice .body-2 p
+{
+    padding-right: 0;
+}
+.watchChoice .btn
+{
+    padding: 15px 29px;
+    background-color: #ff2020;
+    border-radius: 0px;
+    margin: 10px;
+    transition: all 5s;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    transition-delay: 3s;
+}
+.watchChoice .btn .btn-link
+{
+    color: #fff ;
+    font-family: "Josefin Sans",sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+  
+
+}
+.watchChoice .btn  .btn-link::after
+{
+    position: absolute;
+    content: " ";
+    background-color: #4a4a4b;;
+    height:100%;
+    width: 0;
+    z-index: -1111;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .4s linear;
+}
+.watchChoice .btn:hover .btn-link::after 
+{
+    opacity: 1;
+    width: 100%;
+
+}
+.watchChoice img 
+{
+    width: 100%;
+} /**/
+/**/
+.aorem .container 
+{
+    background-color: #ea0000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 10px ;
+}
+.aorem .card
+{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    font-family: "Roboto",sans-serif;
+    
+}
+.aorem .icon 
+{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.aorem p
+{
+    font-size: 16px;
+    color: #d3d1d1;
+    padding-top: 20px;
+}
+footer
+{
+    background-color: #fefefe ;
+}
+footer .h4 
+{
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 29px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: "Roboto",sans-serif;
+    padding-bottom: 20px;
+}
+footer p
+{
+    color: #868c98;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+    padding-top: 20px;
+}
+footer a 
+{
+    color: #868c98;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 2.5;
+   text-decoration: none;
+}
+footer a:hover
+{
+    color: #ff2020;
+    padding-left: 5px;
+    text-decoration: none;
+}
+footer ul 
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer .copyRight
+{
+    padding-top: 87px;
+    position: relative;
+}
+footer .footer-social
+{
+    position: absolute;
+    right: 10%;
+    top: 0% ;
+}
+footer .fab
+{
+    transition: all .4s;
+    padding-right: 15px;
+}
+footer .fab:hover 
+{
+    position: relative;
+    transform: rotatey(180deg);
+
+}
+/* shop page*/
+.cover
+{
+    background-image: url("../img/cover.webp");
+    height:95vh;
+    position: relative;
+}
+.cover .text h2
+{
+position: absolute;
+top : 50%;
+right: 35%;
+left: 35%;
+}
+.cover .text h2
+{
+   
+    font-size: 70px !important;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+    font-family: "Josefin Sans",sans-serif;
+    color: #0b1c39;
+    margin-top: 0px;
+}
+/**/
+/**/
+.nav-section
+{
+    padding-top: 150px !important;
+    
+}
+.nav-section .container ul
+{
+    border: none;  
+}
+.nav-section .container ul li a 
+{
+    
+    padding-bottom: 10px;
+    display: block;
+    color: #1b1b1b;
+    text-transform: capitalize;
+    font-size: 14px !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+}
+
+.nav-tabs .nav-link:focus
+{
+    border-bottom: solid red 3px;
+}
+.nav-tabs .select-itmes
+{
+    border-radius: 50px;
+    padding-top:6px ;
+    padding-left: 14px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    background-color: #f2f2f2;
+    border: none;
+}
+.nav-tabs .select-itme
+{
+    background-color: #f2f2f2;
+    border: none !important;
+}
+
+.nav-section .nav-link::after 
+{
+   content: "";
+   color: red;
+   width: 100px;
+   height: 20px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   z-index: 22222;
+}
+
+.nav-section  .card 
+{
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    transition: all 4s ease-out .2s;
+}
+.nav-section  .card-body
+{
+    text-align: center;
+    transition: all 4s ease-out .2s;
+}
+.nav-section  .heartIcon
+{
+    position: absolute;
+    top:15px;
+    right:15px;
+    display: none;
+}
+.nav-section   .fa-heart
+{
+    font-size: 30px;
+    font-weight: 300;
+}
+.nav-section  .Popular h2
+{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+
+}
+.nav-section  .head-text 
+{
+    
+    font-family: "Roboto",sans-serif;
+    color: #777;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+ 
+}
+.nav-section  a 
+{
+    color: #444444;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 12px;
+
+}
+.nav-section  p
+{
+    color: #444444;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-section  .img-container
+{
+    position: relative;
+    overflow: hidden;
+   border-bottom: solid red 2px;
+}
+.nav-section  .card:hover .img-cap 
+{
+    height: 60px;
+    position: absolute;
+    left: 0;
+    bottom:1px;;
+    right: 0;
+}
+.nav-section  .card:hover .heartIcon
+{
+    display: block;
+}
+.nav-section  .img-cap 
+{
+    color: #fff;
+    background: #f81f1f;
+    padding: 20px 0;
+    height: 0;
+    cursor: pointer;
+    text-align: center;
+    transition: all .4s ;
+    position: absolute;
+    left: 0;
+    bottom: -60px;;
+    right: 0;
+
+}
+/**/
+/**/
+.AboutUs
+{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.AboutUs .card
+{
+    border: none;
+    position: relative;
+    
+}
+.AboutUs .card-title
+{
+    font-size: 30px;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #000a2d;
+    display: inline-block;
+    position: relative;
+    padding-left: 68px;
+}
+.AboutUs .card-title::before
+{
+    position: absolute;
+    content: "";
+    width: 54px;
+    height: 2px;
+    background: #eb566c;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.AboutUs .card-text
+{
+    color: #464d65;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    max-width: 70%;
+}
+
+/**/
+/**/
+.btn
+{
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #fdcb9e;
+    text-transform: uppercase;
+    background-color: #ff2020;
+    padding: 12px 25px;
+}
+.btn:hover
+{
+    background: #ff2020;
+    color: #000 !important;
+    border: 1px solid #ff2020;
+}
+.contact-section h3
+{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a;
+}
+.contact-section .card-text
+{
+    color: #8a8a8a;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px ;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.contact-section .fas ,.contact-section .far
+{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.contact-section .container
+{
+    margin-top: 70px;
+}
+.contact-section .maps
+    {
+       width:900px;
+    }
+@media(max-width: 524px)
+{
+   .Popular .head-text
+   {
+       font-size: 13px;
+   }
+}
+@media(max-width:1025px)
+{
+
+.cover .text .text-header
+{  font-size: 55px !important;
+    right: 32%;
+    left: 32%;
+}
+.coverHome .card-title
+{
+    font-size: 40px;
+}
+}
+@media(max-width:991px)
+{
+    .background .rowTwo
+    {
+        padding-left: 0px;
+        padding-left: 0px;
+    }
+    .background .cardTwo
+    {
+        padding-right: 0;
+    }
+    header .nav-link 
+    {
+        padding: 11px 21px !important;
+    }
+}
+@media(max-width:767px)
+{
+.coverHome .card-title
+{
+    margin-bottom: 7px;
+    font-size: 27px;
+}
+.coverHome .card-text 
+{      margin-bottom: 0;
+        font-size: 12px;
+}
+.coverHome .btn 
+{
+    padding: 1px 3px;
+}
+}
+@media(max-width:671px)
+{
+
+.cover .text .text-header
+{  font-size: 45px !important;
+  
+}
+}
+@media(max-width:549px)
+{
+
+.cover .text .text-header
+{  font-size: 30px !important;
+    right: 28%;
+    left: 32%;
+}
+}
+@media(max-width:330px)
+{
+
+.cover .text .text-header
+{  font-size: 25px !important;
+    right: 5%;
+    left: 32%;
+}
+}
+/*
+@media(max-width:)
+{
+    background .
+}
+
+*/
